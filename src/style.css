@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaderboard__title {
+  font-size: 50px;
+  padding: 3% 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.leaderboard__scores {
+  width: 50%;
+}
+
+.score__Features__cotainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores__title {
+  font-size: 30px;
+}
+
+.scores__refresh {
+  cursor: pointer;
+  background: transparent;
+  padding: 2px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.scores__list__container {
+  list-style: none;
+  width: 100%;
+  border: 2px solid #000;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.scores__list {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2px;
+}
+
+.scores__list:nth-child(even) {
+  background-color: #cbcbcb;
+}
+
+.add__score__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.leaderboard__add__input {
+  padding: 5px;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.add__btn__container {
+  display: flex;
+  justify-content: end;
+}
+
+.leaderboard__add__submit {
+  cursor: pointer;
+  background: transparent;
+  padding: 2px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+  width: 40%;
+}
