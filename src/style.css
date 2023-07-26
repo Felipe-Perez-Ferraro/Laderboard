@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #42b883;
+  --secondary-color: #347474;
+  --third-color: #35495e;
+  --fourth-color: #ff7e67;
+}
+
+body {
+  background-color: var(--third-color);
+}
+
+.leaderboard__title {
+  color: var(--fourth-color);
+  font-size: 50px;
+  padding: 3% 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.leaderboard__scores {
+  width: 50%;
+}
+
+.score__Features__cotainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores__title {
+  color: var(--fourth-color);
+  font-size: 30px;
+}
+
+.scores__refresh {
+  cursor: pointer;
+  padding: 2px 10px;
+  color: #fff;
+  background: var(--secondary-color);
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.scores__refresh:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.scores__list__container {
+  list-style: none;
+  width: 100%;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scores__list {
+  color: #1e2a36;
+  background: var(--primary-color);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 2px;
+}
+
+.scores__list:nth-child(even) {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.add__score__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leaderboard__add__input {
+  padding: 5px;
+  outline: none;
+  border: 2px solid var(--secondary-color);
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+.add__btn__container {
+  display: flex;
+  justify-content: end;
+}
+
+.leaderboard__add__submit {
+  cursor: pointer;
+  padding: 2px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  width: 40%;
+  background: var(--fourth-color);
+  color: #fff;
+}
