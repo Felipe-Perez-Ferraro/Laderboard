@@ -12,7 +12,6 @@
     - [Prerequisites](#prerequisites)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -58,7 +57,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://feliperto.github.io/Laderboard/)
+- [Live Demo Link](https://felipe-perez-ferraro.github.io/Laderboard/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,7 +113,7 @@ Using the link of the code to clone it
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Feliperto)
+- GitHub: [@githubhandle](https://github.com/Felipe-Perez-Ferraro)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/felipe-perez-ferraro-6b9358218/)
 
 
