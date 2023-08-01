@@ -4,21 +4,6 @@ export default class Leaderboard {
     this.API = 'luf2eRQ3AvnQOJNDWRPw';
   }
 
-  // Start the API method
-  start = async (game) => {
-    const response = await fetch(this.URL, {
-      method: 'POST',
-      body: JSON.stringify({
-        name: game,
-      }),
-      headers: {
-        'Content-type': 'application/json; charset=UTF-8',
-      },
-    });
-    const data = await response.json();
-    return data;
-  }
-
   // Get the Users and Scores from the API method
   getUserAndScores = async () => {
     const response = await fetch(`${this.URL}${this.API}/scores/`);
