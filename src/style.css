@@ -103,6 +103,10 @@ body {
   font-weight: 500;
 }
 
+.leaderboard__add__input::placeholder {
+  color: #fff;
+}
+
 .add__btn__container {
   display: flex;
   justify-content: end;

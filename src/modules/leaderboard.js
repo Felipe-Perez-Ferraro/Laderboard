@@ -6,9 +6,13 @@ export default class Leaderboard {
 
   // Get the Users and Scores from the API method
   getUserAndScores = async () => {
-    const response = await fetch(`${this.URL}${this.API}/scores/`);
-    const data = await response.json();
-    return data;
+    try {
+      const response = await fetch(`${this.URL}${this.API}/scores/`);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   // Post the User and his score from the form
